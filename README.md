@@ -53,7 +53,11 @@ To color atoms by probability in the ligand, run data2b_atom('object','lig_hbond
 To better visualize the residues, copy 'res_to_color' to a separate object and execute the following in the PyMOL command line:
 
 hide everything, res_to_color_obj
+
 show surface, res_to_color_obj
+
 set transparency, 0.5
+
 show sticks, res_to_color_obj
+
 set cartoon_transparency, 0.7
